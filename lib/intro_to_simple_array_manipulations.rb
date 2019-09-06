@@ -36,7 +36,7 @@ def using_concat(array1, array2)
     array.uniq
   end
   
-  def using_flatten
+  def using_flatten(array)
     array.flatten 
   end
   
