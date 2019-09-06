@@ -33,23 +33,19 @@ def using_concat(array1, array2)
   end
   
   def using_uniq
-    array = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
     array.uniq
   end
   
   def using_flatten
-    array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
     array.flatten 
   end
   
   def using_delete(array, string)
-    array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    array.delete("Steven")
+    array.delete(string)
   end
   
   def using_delete_at(array, integer)
-    array = ["Johnny 5", "R2D2", "Robocop"]
-    array.delete(2)
+    array.delete_at(2)
 end    
   
   
